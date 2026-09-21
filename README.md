@@ -14,6 +14,18 @@ Powered 100% locally on-device by Google's **MedGemma 1.5 4B IT** via **LiteRT-L
 
 ---
 
+## ⚠️ Demo Disclaimers & Known Hardware Limitations
+
+* **Inference Turnaround Time (4 to 6 Minutes):**
+  * **Reference Baseline:** On our reference benchmark device (**Samsung Galaxy A25 5G**, Exynos 1280 chipset with 6–8 GB RAM), generating the complete dual-agent consultation (*Doctor's Note* followed by *Patient Guide*) takes approximately **4 to 6 minutes** total (~1.5–2 min for Doctor Note, ~2.5–3.5 min for Patient Guide).
+  * **Hardware Scaling:** Inference runs 100% locally on the device's CPU/GPU. Higher-tier flagship processors (e.g., Snapdragon 8 Gen 2/3, Google Tensor G3/G4, Dimensity 9000+) will run significantly faster due to higher NPU/GPU memory bandwidth.
+  * **Patience during Generation:** Please keep the app in the foreground while MedGemma completes its two-phase synthesis.
+
+* **Voice Dictation Sensitivity & Silence Timeout:**
+  * Voice input utilizes the native Android speech recognizer. Brief pauses when speaking may cause the speech recognizer to stop recording early while the red indicator remains visible. If this occurs, simply tap the mic button again to resume speaking or type directly into the symptom box.
+
+---
+
 ## 📱 Hardware Requirements
 
 * **Operating System:** Android 10+ (API 29+)
