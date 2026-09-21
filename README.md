@@ -30,7 +30,7 @@ Powered 100% locally by Google's **MedGemma 1.5 4B IT** via **LiteRT-LM** (Media
 
 ## 📥 Download & Installation
 
-1. Go to [Releases](releases) to download the latest **`Decurandi_Mobile_Demo.apk`** (~2.6 GB).
+1. Go to [Releases](https://github.com/beoncloud8/decurandi-mobile-demo/releases/tag/v1.0.0) to download the latest **`Decurandi_Mobile_Demo.apk`** (~2.6 GB).
 2. Open the downloaded `.apk` file on your Android device.
 3. If prompted: **"For security, your phone is not allowed to install unknown apps"**:
    * Tap **Settings** $\rightarrow$ Toggle **"Allow from this source"** $\rightarrow$ Tap **Install**.
